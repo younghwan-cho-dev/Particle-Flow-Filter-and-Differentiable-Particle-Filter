@@ -1,0 +1,21 @@
+name: pf_pf
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - scipy
+  - tf-keras
+  - tqdm
+  - pytest
+  - pip
+  - pip:
+    - tensorflow
+    - tf-keras
+    - tensorflow-probability
